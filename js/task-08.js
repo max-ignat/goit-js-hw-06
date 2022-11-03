@@ -14,7 +14,8 @@ function onForm(event) {
 
     if (mail === "" || password === "") {
     alert("Все поля должны быть заполнены");
-    } else {
+    }
+    else {
     const formData = {
     mail,
     password,
