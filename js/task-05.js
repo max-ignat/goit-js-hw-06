@@ -7,7 +7,7 @@ const outputEl = document.querySelector('#name-output');
 
 
 const spanChange = (event) => {
-    if (event.currentTarget.value === '') {
+    if (event.currentTarget.value.trim() === '') {
         outputEl.textContent = 'Anonymous'
     }
         
